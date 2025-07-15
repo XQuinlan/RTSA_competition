@@ -1,0 +1,36 @@
+# Raspberry Pi 5 Optimized Requirements
+# Tested on Raspberry Pi OS Bookworm (64-bit)
+
+# PyTorch ecosystem (CPU-only, ARM64 optimized)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# LWCC library for crowd counting
+lwcc>=1.0.0
+
+# Computer vision and image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Math and scientific computing (ARM64 optimized)
+numpy>=1.24.0
+scipy>=1.10.0
+
+# System monitoring and performance
+psutil>=5.9.0
+
+# Pi Camera support (new libcamera interface)
+picamera2>=0.3.12
+
+# Legacy Pi Camera support (fallback)
+# picamera  # Uncomment if using legacy camera
+
+# Display and GUI (headless compatible)
+matplotlib>=3.7.0
+
+# Development and debugging
+tqdm>=4.65.0
+
+# Additional Pi 5 optimizations
+# ARM64 optimized packages where available 
